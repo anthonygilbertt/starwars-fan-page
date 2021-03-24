@@ -36,35 +36,6 @@ html {
   margin: 0;
 }
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -101,10 +72,6 @@ a {
   background: rgba(0, 0, 0, 0.75);
   padding: 20px;
   color: white;
-  /**/
-  padding-right: calc(var(--bs-gutter-x) / 2);
-  padding-left: calc(var(--bs-gutter-x) / 2);
-  margin-top: var(--bs-gutter-y);
 }
 
 h1 {
@@ -134,6 +101,9 @@ h2 {
   position: relative;
   font-size: 80%;
 }
+.hero-image {
+  min-width: 100%;
+}
 
 .last {
   margin-right: 0;
@@ -153,6 +123,9 @@ h2 {
     padding-left: calc(var(--bs-gutter-x) / 2);
     margin-top: var(--bs-gutter-y);
   }
+  .story-intro h1 {
+    font-size: xx-large !important;
+  }
 }
 
 /* Portrait */
@@ -167,6 +140,9 @@ h2 {
     padding-left: calc(var(--bs-gutter-x) / 2);
     margin-top: var(--bs-gutter-y);
   }
+  .story-intro h1 {
+    font-size: xx-large !important;
+  }
 }
 
 /* Landscape */
@@ -180,6 +156,9 @@ h2 {
     padding-right: calc(var(--bs-gutter-x) / 2);
     padding-left: calc(var(--bs-gutter-x) / 2);
     margin-top: var(--bs-gutter-y);
+  }
+  .story-intro h1 {
+    font-size: xx-large !important;
   }
 }
 
@@ -197,6 +176,9 @@ h2 {
     padding-left: calc(var(--bs-gutter-x) / 2);
     margin-top: var(--bs-gutter-y);
   }
+  .story-intro h1 {
+    font-size: xx-large !important;
+  }
 }
 
 /* Portrait */
@@ -211,6 +193,9 @@ h2 {
     padding-left: calc(var(--bs-gutter-x) / 2);
     margin-top: var(--bs-gutter-y);
   }
+  .story-intro h1 {
+    font-size: xx-large !important;
+  }
 }
 
 /* Landscape */
@@ -224,6 +209,9 @@ h2 {
     padding-right: calc(var(--bs-gutter-x) / 2);
     padding-left: calc(var(--bs-gutter-x) / 2);
     margin-top: var(--bs-gutter-y);
+  }
+  .story-intro h1 {
+    font-size: xx-large !important;
   }
 }
 
@@ -241,6 +229,9 @@ h2 {
     padding-left: calc(var(--bs-gutter-x) / 2);
     margin-top: var(--bs-gutter-y);
   }
+  .story-intro h1 {
+    font-size: xx-large !important;
+  }
 }
 
 /* Portrait */
@@ -254,6 +245,9 @@ h2 {
     padding-right: calc(var(--bs-gutter-x) / 2);
     padding-left: calc(var(--bs-gutter-x) / 2);
     margin-top: var(--bs-gutter-y);
+  }
+  .story-intro h1 {
+    font-size: xx-large !important;
   }
 }
 
@@ -269,21 +263,22 @@ h2 {
     padding-left: calc(var(--bs-gutter-x) / 2);
     margin-top: var(--bs-gutter-y);
   }
+  .story-intro h1 {
+    font-size: xx-large !important;
+  }
 }
 
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-  .col-lg-4,
   .story-intro {
-    width: 70% !important;
-    background: rgba(0, 0, 0, 0.75) !important;
-    padding: 20px !important;
-    color: white !important;
-    padding-right: calc(var(--bs-gutter-x) / 2);
-    padding-left: calc(var(--bs-gutter-x) / 2);
-    margin-top: var(--bs-gutter-y);
+    -ms-flex: 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  .story-intro h1 {
+    font-size: xx-large !important;
   }
 }
 
@@ -302,6 +297,9 @@ h2 {
     padding-left: calc(var(--bs-gutter-x) / 2);
     margin-top: var(--bs-gutter-y);
   }
+  .story-intro h1 {
+    font-size: xx-large !important;
+  }
 }
 
 /* Landscape */
@@ -311,6 +309,9 @@ h2 {
     padding-right: calc(var(--bs-gutter-x) / 2);
     padding-left: calc(var(--bs-gutter-x) / 2);
     margin-top: var(--bs-gutter-y);
+  }
+  .story-intro h1 {
+    font-size: xx-large !important;
   }
 }
 
@@ -331,6 +332,9 @@ h2 {
     padding-left: calc(var(--bs-gutter-x) / 2);
     margin-top: var(--bs-gutter-y);
   }
+  .story-intro h1 {
+    font-size: xx-large !important;
+  }
 }
 
 /* Landscape */
@@ -348,5 +352,15 @@ h2 {
     padding-left: calc(var(--bs-gutter-x) / 2);
     margin-top: var(--bs-gutter-y);
   }
+  .story-intro h1 {
+    font-size: xx-large !important;
+  }
 }
+/* .section-category {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+} */
 </style>

@@ -25,8 +25,11 @@
       </div>
     </article>
 
-    <section class="sub-stories flex justify-center">
-      <article class="sub-story">
+    <section
+      id="section-category"
+      class="row sub-stories flex justify-center md:flex"
+    >
+      <article class="sub-story sm:flex-shrink-0">
         <img class="tile-image" src="http://placekitten.com/250/350" />
         <div class="story-intro">
           <h2>Less Important Story</h2>
@@ -34,7 +37,7 @@
         </div>
       </article>
 
-      <article class="sub-story">
+      <article class="sub-story sm:flex-shrink-0">
         <img
           class="tile-image"
           src="https://starwars-fan-page.s3.us-east-2.amazonaws.com/dog-starwars-1.jpg"
@@ -45,40 +48,13 @@
         </div>
       </article>
 
-      <article class="sub-story last">
+      <article class="sub-story sm:flex-shrink-0">
         <img class="tile-image" src="http://placebear.com/250/350" />
         <div class="story-intro">
           <h2>Less Important Story</h2>
           <p>This story has less visual weight.</p>
         </div>
       </article>
-    </section>
-    <!-- New Section -->
-    <section class="row">
-      <div class="col-lg-4">
-        <img class="tile-image" src="http://placekitten.com/250/350" />
-        <div class="story-intro">
-          <h2>Less Important Story</h2>
-          <p>This story has less visual weight.</p>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <img
-          class="tile-image"
-          src="https://starwars-fan-page.s3.us-east-2.amazonaws.com/dog-starwars-1.jpg"
-        />
-        <div class="story-intro">
-          <h2>Less Important Story</h2>
-          <p>This story has less visual weight.</p>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <img class="tile-image" src="http://placebear.com/250/350" />
-        <div class="story-intro">
-          <h2>Less Important Story</h2>
-          <p>This story has less visual weight.</p>
-        </div>
-      </div>
     </section>
   </div>
 </template>
